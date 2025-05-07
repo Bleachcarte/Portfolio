@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Ekong | Data Analytics Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0c2340;
+      --accent: #007ACC;
+      --light-bg: #f9f9f9;
+      --dark-text: #1a1a1a;
+      --card-bg: #fff;
+      --border-radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--light-bg);
+      color: var(--dark-text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 3em 1em;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+
+    header p {
+      font-size: 1.3em;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2em 1.5em;
+    }
+
+    section {
+      margin-bottom: 4em;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 1em;
+      border-left: 6px solid var(--primary);
+      padding-left: 0.5em;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+      margin-right: 0.4em;
+    }
+
+    .project {
+      background: var(--card-bg);
+      padding: 2em;
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      margin-bottom: 2em;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .link-buttons a {
+      display: inline-block;
+      margin-right: 1em;
+      margin-top: 0.5em;
+      background: var(--primary);
+      color: white;
+      padding: 0.75em 1.5em;
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .link-buttons a:hover {
+      background: var(--accent);
+    }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 2em 1em;
+      font-size: 0.9em;
+      margin-top: 4em;
+    }
+
+    @media (min-width: 768px) {
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Daniel Ekong</h1>
+    <p>Data Analyst | Python | SQL | Power BI | Tableau | Excel | NetAcad Certified</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m Daniel Ekong, a passionate Computer Engineer with a keen eye for detail and a hunger for insights. My foundation in analytics is rooted in indpendent learning, an internship at Nigeria LNG Limited and the Cisco NetAcad Data Analytics Program, where I built skills in everything from data collection and wrangling to building interactive dashboards and writing Python scripts.
+      </p>
+      <p>
+        I specialize in converting raw data into strategic insights through compelling visualizations and data-driven storytelling. My toolbox includes Python, SQL, Tableau, and Excel. I’m always looking for new challenges and technologies to master.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Tools</h2>
+      <ul class="grid-2">
+        <li>Python: Pandas, NumPy, Matplotlib</li>
+        <li>SQL: Joins, Aggregations, Subqueries</li>
+        <li>Excel: Advanced Functions, Pivot Tables</li>
+        <li>Tableau: Interactive Dashboards, Storytelling</li>
+        <li>Power BI: Data Modeling, DAX, Visual Analytics</li>
+        <li>Data Lifecycle: ETL, Analysis, Reporting</li>
+        <li>Statistical Thinking: Trends, Outliers, Patterns</li>
+        <li>Version Control: Git, GitHub</li>
+        <li>Business Insight & Problem Solving</li>
+      </ul>
+    </section>
+    
+
+    <section id="projects">
+      <h2>Projects</h2>
+    
+      <div class="project">
+        <h3>HR Analytics Dashboard for Nigeria LNG Ltd (Power BI)</h3>
+        <p>
+          Built a dynamic Power BI dashboard for a simulated HR dataset from Nigeria LNG Limited. Visualized employee distribution by department, job roles, and tenure, with drill-down capabilities for individual employee profiles.
+        </p>
+        <p><strong>Tools:</strong> Power BI, Data Modeling, DAX, Excel</p>
+      </div>
+    
+      <div class="project">
+        <h3>Request & Approval System Query (SQL)</h3>
+        <p>
+          Designed and queried a SQL database for managing training request forms for TPD staff at Nigeria LNG Limited. Created a login and approval tracking table, and extracted actionable insights using joins and subqueries.
+        </p>
+        <p><strong>Tools:</strong> MySQL, ERD Design, User Access Tables</p>
+      </div>
+    
+      <div class="project">
+        <h3>Brain-Computer Interface Signal Analysis (Final Year Project)</h3>
+        <p>
+          Conducted EEG signal analysis using Python for a Brain-Computer Interface (BCI) system to help individuals with physical limitations. Applied data analysis and signal processing techniques to interpret mental commands from EEG signals.
+        </p>
+        <p><strong>Tools:</strong> Python, NumPy, SciPy, Matplotlib, MNE</p>
+      </div>
+    </section>
+    
+
+    <section id="resume">
+      <h2>Resume & Links</h2>
+      <p>You can explore my credentials or connect with me online through the links below:</p>
+      <div class="link-buttons">
+        <a href="RESUME.pdf">📄 Download Resume (PDF)</a>
+        <a href="https://www.linkedin.com/in/daniel-ekong-74b803326/">🔗 LinkedIn</a>
+        <a href="https://github.com/Bleachcarte">💻 GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>I’m actively looking for internship or entry-level roles in data analytics. Let’s connect!</p>
+      <ul>
+        <li>Email: <a href="mailto:ekonguwemdaniel@gmail.com">ekonguwemdaniel@gmail.com</a></li>
+        <li>Phone: +234-704-937-9149</li>
+        <li>Location: Abuja, Nigeria</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Daniel Ekong. Built with passion and precision.
+  </footer>
+</body>
+</html>
