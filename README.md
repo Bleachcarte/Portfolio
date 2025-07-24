@@ -49,7 +49,7 @@ No build steps required—just static files!
 
 ## 📬 Contact
 
-- **Email:** danielekong@example.com
+- **Email:** ekonguwemdaniel@gmail.com
 - **GitHub:** [Bleachcarte](https://github.com/Bleachcarte/)
 - **LinkedIn:** [Daniel Ekong](https://linkedin.com/in/danielekong)
 
