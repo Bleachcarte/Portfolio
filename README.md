@@ -33,7 +33,7 @@ index.html
 ReadME.md
 ```
 
-## 📸 Screenshots
+## 📸 Daniel Ekong
 
 ![Portfolio Screenshot](assets/images/avatar.jpg)
 
